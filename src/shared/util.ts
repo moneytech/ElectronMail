@@ -50,7 +50,7 @@ export function initialConfig(): Config {
                 domElementsResolving: ONE_SECOND_MS * 20,
                 defaultApiCall: DEFAULT_API_CALL_TIMEOUT,
                 databaseLoading: ONE_MINUTE_MS * 5, // 5 minutes
-                indexingBootstrap: ONE_SECOND_MS * 30, // 30 seconds
+                indexingBootstrap: ONE_SECOND_MS * 45, // 45 seconds
                 clearSessionStorageData: ONE_SECOND_MS * 3, // 3 seconds
                 attachmentLoadAverage: ONE_MINUTE_MS * 2, // 2 minutes
                 fullTextSearch: ONE_SECOND_MS * 30, // 30 seconds
